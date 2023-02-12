@@ -1,0 +1,82 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+ana = 8L
+#class(ana)
+paulo = 12L
+#class(paulo)
+ifelse(ana > paulo, "A menina é mais velha", "O menino é mais velho")
+```
+
+```{r}
+ana = 8L
+paulo = 12L
+
+if (ana > paulo) {
+  "A menina é mais velha"
+}else {
+  "O menino é mais velho"
+  }
+```
+
+```{r}
+class(BOD)
+```
+
+```{r}
+head(BOD)
+```
+
+```{r}
+num = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+for (i in num) {
+  if (i %% 2 == 0){
+  print(i)
+  }
+}  
+```
+
+
+```{r}
+tail(women, n=10L)
+```
+
+```{r}
+plot(BOD)
+```
+
+```{r}
+plot(women)
+```
+
+
+```{r}
+plot(iris)
+```
+
+```{r}
+class(iris)
+```
+
+```{r}
+v1 = c(1, 2, 3)
+v2 = c(1, 2, 3)
+v3 = v1 + v2
+print(v3)
+```
+
+```{r}
+class(CO2)
+length(CO2)
+```
+
+
+
+
+
+
+
+

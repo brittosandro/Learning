@@ -1,0 +1,40 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+# Vamos utilizar a biblioteca stargazer
+#install.packages(stargazer)
+#library(stargazer)
+```
+
+```{r}
+# Vamos utilizar a biblioteca stargazer
+library(stargazer)
+```
+
+```{r}
+# Vamos utilizar a biblioteca stargazer
+stargazer(iris)
+```
+
+```{r}
+# Vamos utilizar a biblioteca stargazer
+stargazer(iris, type="html")
+```
+```{r}
+# Vamos utilizar a biblioteca stargazer
+stargazer(iris, type="text")
+```
+
+```{r}
+stargazer(women, out="women.tex", summary=FALSE)
+```
+
+
+
+
+
+

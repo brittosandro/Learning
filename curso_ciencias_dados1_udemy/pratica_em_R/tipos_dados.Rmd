@@ -1,0 +1,76 @@
+---
+title: "Tipos de dados"
+output: html_notebook
+---
+
+Podemos executar uma declaração para verificar se o número declarado é um inteiro.
+
+```{r}
+delta = 8L
+class(delta)
+```
+
+Podemos executar uma declaração para verificar se o número declarado é da classe 
+numeric
+```{r}
+delta = 8
+class(delta)
+```
+```{r}
+```
+
+Vamos declarar uma variável lógica
+```{r}
+a = TRUE
+b = TRUE
+
+a == b
+```
+```{r}
+c = FALSE
+d = F
+
+c == d
+```
+
+```{r}
+e = TRUE
+f = FALSE
+
+e == f
+```
+Vamos criar uma caractere string
+```{r}
+nome = "sandro"
+nome_completo = "sandro francisco de brito"
+```
+
+
+Operações matemáticas
+```{r}
+a = 2
+b = 3
+c = 4
+
+resultado = a + b + (c * a)
+resultado
+```
+Testes lógicos
+```{r}
+a = 1
+b = 2
+b > a
+```
+```{r}
+a = T
+b = F
+b > a
+```
+Calculando a raiz
+```{r}
+sqrt(4)
+```
+
+
+
+

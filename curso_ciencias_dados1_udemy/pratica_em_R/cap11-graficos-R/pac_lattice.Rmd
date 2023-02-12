@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-02-12"
+---
+
+```{r}
+#carregando pacote lattice
+library(lattice)
+```
+
+## Executando um Boxplot
+
+```{r}
+bwplot(trees$Volume)
+bwplot(trees$Volume, main="Árvores", xlab = "Volume")
+```
+
+## Executando um histograma
+
+```{r}
+histogram(trees$Volume, main="Árvores", xlab = "Volume", aspect=1, type="percent", nunt=20)
+```

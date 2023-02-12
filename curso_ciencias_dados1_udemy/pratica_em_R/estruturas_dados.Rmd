@@ -1,0 +1,53 @@
+---
+title: "Estruturas de Dados"
+output: html_estruturas de dados
+---
+
+Criando vetores
+
+```{r}
+x = c(1, 2, 3, 4, 5)
+x
+```
+Criando matrizes
+```{r}
+VADeaths
+colnames(VADeaths)
+rownames(VADeaths)
+```
+Acessando os dados das colunas
+```{r}
+VADeaths[, 1]
+VADeaths[1,]
+```
+Pegando linhas específicas da matrix. Para pegar um conjunto de linhas 
+específicas, deveremos utilizar uma matrix no ligar da linha.
+
+```{r}
+VADeaths[c(1, 3, 5), ]
+```
+Usando os data frames. Data frames são quadros de dados, ou seja, tabelas que
+apresentam um conjunto de dados de todos os tipos, podendo ser uma misturas de
+dados. Assim são matrizes heterogêneas.
+
+```{r}
+longley
+# acessando as colunas de 1 até 3
+longley[, 1:3]
+# acessando somente a linha 5 unemployed (desempregado)
+# na forma de vetor
+longley$Unemployed
+# acessando somente a linha 5 unemployed (desempregado)
+# na forma de coluna.
+longley['Unemployed']
+
+```
+
+
+
+
+
+
+
+
+
